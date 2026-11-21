@@ -1,0 +1,46 @@
+Jalankan
+
+```
+class Teman:
+    nama = ""
+
+    def perkenalan(self):
+        print(f"Halo, nama saya {self.nama}.")
+
+    def sapa(self, nama_teman):
+        print(f"Halo {nama_teman}, saya {self.nama}!")
+
+
+# Teman 1 = Aar
+teman1 = Teman()
+teman1.nama = "Aar"
+
+# Teman 2 = Naseh
+teman2 = Teman()
+teman2.nama = "Naseh"
+
+
+print("=== PERKENALAN ===")
+teman1.perkenalan()
+teman2.perkenalan()
+
+
+print("\n=== PERCAKAPAN AAR DAN NASEH ===")
+teman1.sapa("Naseh")
+teman2.sapa("Aar")
+
+
+print("\n=== OBROLAN MAKAN AYAM GECEK ===")
+print(f"{teman1.nama}: Seh, kamu sudah makan siang belum?")
+print(f"{teman2.nama}: Belum, Aar. Memangnya mau makan di mana?")
+print(f"{teman1.nama}: Ayo kita makan ayam gecek di belakang UNTIRTA!")
+print(f"{teman2.nama}: Wah, boleh tuh, Aar!")
+print(f"{teman1.nama}: Kamu mau pesan ayam gecek apa?")
+print(f"{teman2.nama}: Aku mau pesan ayam gecek satu porsi.")
+print(f"{teman1.nama}: Aku juga mau. Pasti enak buat makan siang.")
+print(f"{teman2.nama}: Iya, apalagi kalau makannya bareng teman.")
+print(f"{teman1.nama}: Betul! Habis makan kita lanjut kuliah.")
+print(f"{teman2.nama}: Oke, Aar. Ayo kita berangkat!")
+print(f"{teman1.nama}: Gas, jangan sampai kehabisan!")
+print(f"{teman2.nama}: Siap! Ayo makan ayam gecek!")
+```
